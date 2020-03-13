@@ -2,7 +2,7 @@ import React from 'react';
 import './collectionitem.scss';
 
 const CollectionItem = (props) => {
-   let { id, name, price, imageUrl } = props;
+   let { name, price, imageUrl } = props;
    return (
       <div className="collection-item">
          <div className="collection-image" style={{backgroundImage: `url(${imageUrl})`}} />
