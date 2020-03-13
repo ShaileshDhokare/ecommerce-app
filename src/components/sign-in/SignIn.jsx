@@ -47,9 +47,9 @@ export class SignIn extends Component {
 						handleChange={this.handleChange}
 						required
 					/>
-               <div style={{display: 'flex', flexDirection: 'row'}}>
-                  <Button type="submit">Sign In</Button>&nbsp;
-                  <Button onClick={signInWithGoogle}>Sign In with Google</Button>
+               <div className="buttons">
+                  <Button type="submit">Sign In</Button>
+                  <Button onClick={signInWithGoogle} isGoogleSignin>Sign In with Google</Button>
                </div>
 				</form>
 			</div>

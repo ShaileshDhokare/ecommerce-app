@@ -31,7 +31,7 @@ class App extends Component {
 		return (
 			<div className="container">
 				<header className="App-header">
-					<Header />
+					<Header currentUser={this.state.currentUser} />
 				</header>
 				<Switch>
 					<Route exact path="/" component={Homepage} />
